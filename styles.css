@@ -1,0 +1,66 @@
+:root {
+    --amarelo-principal: #fddf47;
+    --verde-principal: #3F6212;
+    --branco-principal: #F8F9FB;
+    --cinza-principal: #6E7480;
+    --preto-principal: #000000;
+    --fonte-principal: "Albert Sans";
+}
+
+body {
+    background-color: var(--branco-principal);
+    font-family: var(--fonte-principal), serif;
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container__presentation {
+    background-color: var(--amarelo-principal);
+    height: 87vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__left-presentation {
+    align-items: start;
+    padding-top: 23vh;
+    margin-left: 10vw;
+}
+
+#brand-logo {
+    padding-bottom: 10vh;
+    width: 25%;
+}
+
+h1 {
+    font-size: 44px;
+    font-weight: 800;
+    color: var(--verde-principal);
+}
+
+.container__presentation-images {
+    position: relative;
+    background-image: url("./media/Grafismo-de-apoio.png");
+    background-size: 415px 630px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#vector {
+    position: absolute;
+    margin-top: 80px;
+    z-index: 1;
+    width: 55%
+}
+
+#b88 {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 20px;
+    z-index: 2;
+    width: 90%
+}
